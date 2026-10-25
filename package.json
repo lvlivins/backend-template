@@ -5,8 +5,14 @@
   "private": true,
   "main": "src/index.js",
   "scripts": {
-    "dev": "",
-    "start": ""
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "author": ""
+  "author": "",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
